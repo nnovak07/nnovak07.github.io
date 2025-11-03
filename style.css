@@ -36,25 +36,6 @@ img:hover {
   transform: scale(1.05);
 }
 
-table {
-  border-collapse: collapse;
-  margin-top: 20px;
-  width: 100%;
-  text-align: center;
-}
-
-th {
-  background-color: lightpink;
-  color: white;
-  font-size: 1.2em;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-td {
-  padding: 10px;
-}
-
 p {
   max-width: 600px;
 }
