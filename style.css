@@ -66,19 +66,18 @@ p {
   }
 }
 
-/* Container for all photo sections */
+
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 30px;
 }
 
-/* Each section has its own heading and images */
 .section {
   text-align: center;
 }
 
-/* Section headings */
+/* headings */
 .section h4 {
   background-color: salmon;
   color: white;
@@ -87,11 +86,11 @@ p {
   margin-bottom: 10px;
 }
 
-/* Images in a uniform square frame */
+/* Images  */
 .section img {
   width: 200px;         /* fixed width */
   height: 200px;        /* fixed height for square frame */
-  object-fit: cover;    /* crop image nicely */
+  object-fit: cover;    /* crop image */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   margin: 5px;
