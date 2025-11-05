@@ -89,3 +89,7 @@ body {
   background-attachment: fixed; /* stays still */
   background-position: center;  
 }
+
+img src="Cat.jpeg" {
+   object-fit: cover; 
+}
