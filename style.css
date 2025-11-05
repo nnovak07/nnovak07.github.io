@@ -82,3 +82,10 @@ p {
   transform: scale(1.05);
 }
 
+body {
+  background-image: src("undefined - Imgur(4).gif");
+  background-size: cover;       /* make it fill the screen */
+  background-repeat: no-repeat; /* don’t tile it */
+  background-attachment: fixed; /* stays still while scrolling */
+  background-position: center;  /* keep it centered */
+}
