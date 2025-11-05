@@ -83,7 +83,7 @@ p {
 }
 
 body {
-  background-image: src("undefined - Imgur(4).gif");
+  background-image: url("gif1.gif");
   background-size: cover;       
   background-repeat: no-repeat; 
   background-attachment: fixed; /* stays still */
